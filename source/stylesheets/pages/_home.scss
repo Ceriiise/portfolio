@@ -71,7 +71,7 @@
 
 // CONTACT
 .bloc-contact {
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 150px);
   position: relative;
 }
 
@@ -83,7 +83,7 @@
 .message-back {
   z-index: -100;
   position: absolute;
-  top: 100px;
+  top: 150px;
   left: 350px;
 }
 
@@ -95,5 +95,15 @@
 }
 
 .contact {
-  background-color: pink;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.contact-details {
+  line-height: 20px;
+}
+
+.contact-link a{
+  margin: 10px;
+  font-size: 25px;
 }
