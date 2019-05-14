@@ -12,125 +12,54 @@ title: Philippine Berton
   </div>
 </div>
 
-
-  <!-- skills -->
+<!-- skills -->
 <div class="container">
   <div class="bloc-skills d-flex justify-content-center align-items-center">
     <div class="skills d-flex align-items-center">
 
-      <a href="#HTML" class="skill-link">
-        <div class="skill bg-white text-center d-flex justify-content-center flex-column">
-          <img src="/images/HTML_CSS.svg" alt="">
-          <div class="skill-info">
-            <h3>HTML & CSS</h3>
-            <p>Victura summitatem in Fortuna ad augeretur ut Virtus mundanum plerumque plerumque plerumque dissidentes surgeret non.</p>
+      <% data.skills.each do |skill| %>
+        <a href='<%= skill.id %>' class='skill-link'>
+            <div class="skill bg-white text-center d-flex justify-content-center flex-column">
+              <img src= <%= skill.img %>>
+              <div class="skill-info">
+                <h3><%= skill.name %></h3>
+                <p><%= skill.text %></p>
+              </div>
+            </div>
+          </a>
+      <% end %>
+
+    </div>
+  </div>
+</div>
+
+<!-- projects -->
+<% data.projects.each do |project| %>
+  <div class="container" id='<%= project.id %>'>
+    <div class="project-skill">
+      <h1><%= project.skill %></h1>
+    </div>
+
+    <div class="bloc-project d-flex align-items-center">
+      <div class="project d-flex align-items-stretch">
+        <div class="project-content bg-white align-self-end">
+          <div class="project-title">
+            <h3><%= project.title %></h3>
+          </div>
+          <div class="project-info">
+            <p><%= project.text %></p>
           </div>
         </div>
-      </a>
-
-
-      <a href="#UI" class="skill-link">
-        <div class="skill bg-white text-center d-flex justify-content-center flex-column">
-          <img src="/images/UI_UX.svg" alt="">
-          <div class="skill-info">
-            <h3>UX & UI Designer</h3>
-            <p>Victura summitatem in Fortuna ad augeretur ut Virtus mundanum plerumque plerumque plerumque dissidentes surgeret non.</p>
-          </div>
-        </div>
-      </a>
-
-      <a href="#programmer" class="skill-link">
-        <div class="skill bg-white text-center d-flex justify-content-center flex-column">
-          <img src="/images/programmer.svg" alt="">
-          <div class="skill-info">
-            <h3>Programmer</h3>
-            <p>Victura summitatem in Fortuna ad augeretur ut Virtus mundanum plerumque plerumque plerumque dissidentes surgeret non.</p>
-          </div>
-        </div>
-      </a>
-
-    </div>
-  </div>
-</div>
-
-  <!-- projects -->
-<div class="container" id="HTML">
-
-  <div class="project-skill">
-    <h1>HTML</br>
-    & CSS</h1>
-  </div>
-
-  <div class="bloc-project d-flex align-items-center">
-    <div class="project d-flex align-items-stretch">
-      <div class="project-content bg-white align-self-end">
-        <div class="project-title">
-          <h3>GARDEN PARTY</h3>
-        </div>
-        <div class="project-info">
-          <p>Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii. Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii. Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii.</p>
-        </div>
+        <a href='<%= project.link %>' target="_blank">
+          <img src='<%= project.img %>' alt="">
+        </a>
       </div>
-      <a href="https://www.google.fr" target="_blank">
-        <img src="/images/Garden_party.png" alt="">
-      </a>
     </div>
+
   </div>
+<% end %>
 
-</div>
-
-<div class="container" id="UI">
-
-  <div class="project-skill">
-    <h1>UX & UI</br>
-    Designer</h1>
-  </div>
-
-  <div class="bloc-project d-flex align-items-center">
-    <div class="project d-flex align-items-stretch">
-      <div class="project-content bg-white align-self-end">
-        <div class="project-title">
-          <h3>GARDEN PARTY</h3>
-        </div>
-        <div class="project-info">
-          <p>Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii. Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii. Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii.</p>
-        </div>
-      </div>
-      <a href="https://www.google.fr" target="_blank">
-        <img src="/images/Garden_party.png" alt="">
-      </a>
-    </div>
-  </div>
-
-</div>
-
-<div class="container" id="programmer">
-
-  <div class="project-skill">
-    <h1>&lt;/&gt;</br>
-    Programmer</h1>
-  </div>
-
-  <div class="bloc-project d-flex align-items-center">
-    <div class="project d-flex align-items-stretch">
-      <div class="project-content bg-white align-self-end">
-        <div class="project-title">
-          <h3>GARDEN PARTY</h3>
-        </div>
-        <div class="project-info">
-          <p>Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii. Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii. Cum se satis satis dicunt Euripidis qui cum Romano cur non dicat expressas enim fabellas fabellas qui Latina Latina Pacuvii.</p>
-        </div>
-      </div>
-      <a href="https://www.google.fr" target="_blank">
-        <img src="/images/Garden_party.png" alt="">
-      </a>
-    </div>
-  </div>
-
-</div>
-
-
-  <!-- contact -->
+<!-- contact -->
 <div class="bloc-contact d-flex align-items-center justify-content-center flex-column" id="contact">
   <div class="contact-message">
     <div class="message-front text-center">
