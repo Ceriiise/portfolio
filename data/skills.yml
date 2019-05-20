@@ -1,12 +1,12 @@
 - name: 'HTML & CSS'
-  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  text: 'Réalisation de site internet grâce aux meilleurs outils de front-end (Bootstrap, FontAwesome, Google Fonts, etc.).'
   img: '/images/HTML_CSS.svg'
   id: '#HTML'
-- name: 'UX & UI Designer'
-  text: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.'
+- name: 'UX & UI Design'
+  text: "Définition de personas, de parcours utilisateur et création de prototype pour valider la future ergonomie de votre projet."
   img: '/images/UI_UX.svg'
   id: '#UI'
-- name: 'Programmer'
-  text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.'
+- name: 'Programmation'
+  text: "Développement d'application web via Ruby et Ruby on rails avec création de base de données, intégration de service tiers en utilisant une API, etc."
   img: '/images/programmer.svg'
   id: '#programmer'
