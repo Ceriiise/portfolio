@@ -20,7 +20,7 @@ title: Philippine Berton
       <% data.skills.each do |skill| %>
         <a href='<%= skill.id %>' class='skill-link'>
             <div class="skill bg-white text-center d-flex justify-content-center flex-column">
-              <img src= <%= skill.img %>>
+              <img src= "<%= skill.img %>" alt="">
               <div class="skill-info">
                 <h3><%= skill.name %></h3>
                 <p><%= skill.text %></p>
@@ -66,7 +66,7 @@ title: Philippine Berton
       <div class="message-front text-center">
         <p>Envoyez-moi un mail, appelez-moi et</p>
         <p>nous irons prendre un café pour parler</p>
-        <p>de votre projet.</p>
+        <p>de votre.</p>
       </div>
     </a>
     <div class="message-back">
