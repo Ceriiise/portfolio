@@ -7,6 +7,6 @@
   img: '/images/UI_UX.svg'
   id: '#UI'
 - name: 'Programmation'
-  text: "Développement d'application web via Ruby et Ruby on rails avec création de base de données, intégration de service tiers en utilisant une API, etc."
+  text: "Développement d'application web via Ruby et Ruby on rails avec création de base de données, intégration de service tiers en utilisant une API..."
   img: '/images/programmer.svg'
   id: '#programmer'

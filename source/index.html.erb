@@ -13,23 +13,27 @@ title: Philippine Berton
 </div>
 
 <!-- skills -->
-<div class="container">
-  <div class="bloc-skills d-flex justify-content-center align-items-center">
-    <div class="skills d-flex align-items-center">
 
-      <% data.skills.each do |skill| %>
+
+
+<!-- skills with grid -->
+<div class="container d-flex justify-content-center" id="skills">
+  <div class="row">
+
+    <% data.skills.each do |skill| %>
+      <div class="col-12 col-lg-4">
         <a href='<%= skill.id %>' class='skill-link'>
-            <div class="skill bg-white text-center d-flex justify-content-center flex-column">
-              <img src= "<%= skill.img %>" alt="">
-              <div class="skill-info">
-                <h3><%= skill.name %></h3>
-                <p><%= skill.text %></p>
-              </div>
+          <div class="skill text-center d-flex justify-content-center align-self-stretch flex-column">
+            <img src= "<%= skill.img %>" alt="">
+            <div class="skill-info">
+              <h3><%= skill.name %></h3>
+              <p><%= skill.text %></p>
             </div>
-          </a>
-      <% end %>
+          </div>
+        </a>
+      </div>
+    <% end %>
 
-    </div>
   </div>
 </div>
 
