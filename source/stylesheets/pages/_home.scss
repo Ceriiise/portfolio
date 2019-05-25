@@ -121,47 +121,68 @@
   }
 }
 
-// CONTACT
-.bloc-contact {
-  min-height: calc(100vh - 150px);
-  position: relative;
+// MESSAGE
+.message {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 100px 0;
 }
 
-.message-front {
-  font-size: 20px;
-  z-index: 100;
+.message-one {
+  grid-column: 2 / 5;
+  grid-row: 1 / 4;
 }
 
-.message-back {
-  z-index: -100;
-  position: absolute;
-  top: 150px;
-  left: 350px;
-}
-
-.message-back h1{
+.message-one h1{
   font-family: "Oswald";
   font-weight: bold;
   font-size: 95px;
   color: #F0F0F0;
 }
 
-.contact {
+.message-two {
+  grid-column: 3 / 5;
+  grid-row: 2;
+  z-index: 200;
+}
+
+.message-two p{
   font-size: 20px;
-  padding: 10px;
 }
 
-.contact-message a {
+.message a:hover {
   font-family: 'Quattrocento', serif;
   color: #333333;
 }
 
-.contact-message a:hover {
-  font-family: 'Quattrocento', serif;
-  color: #333333;
+
+@media (max-width: 992px) {
+  .message {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 10px 0;
+  }
+
+  .message-one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .message-two {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+// CONTACT
+.contact {
+  padding-top: 30px;
 }
 
 .contact-details {
+  font-size: 20px;
   line-height: 20px;
 }
 
