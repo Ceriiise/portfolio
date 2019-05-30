@@ -5,10 +5,60 @@
 }
 
 // ME
-.bloc-me {
+
+#bloc-me {
   min-height: calc(100vh - 70px);
+  display: flex;
+}
+
+.profil {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 3fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.profil-hello {
+  grid-column: 2 / 5;
+  grid-row: 1 / 3;
+}
+
+.profil-hello h2{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 95px;
+  color: #efeff7;
+}
+
+.profil-desc {
+  grid-column: 3;
+  grid-row: 2 / 4;
   font-size: 20px;
 }
+
+@media (max-width: 992px) {
+  .profil {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    // padding: 10px 0;
+  }
+
+  .profil-hello {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .profil-desc {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .bloc-hello h2{
+    font-size: 50px;
+  }
+}
+
 
 // SKILLS
 #skills {
@@ -65,11 +115,11 @@
   z-index: 100;
 }
 
-.project-skill h1 {
+.project-skill h2 {
   font-family: "Oswald";
   font-weight: bold;
   font-size: 95px;
-  color: #F0F0F0;
+  color: #efeff7;
 }
 
 .description {
@@ -110,6 +160,10 @@
     grid-row: 1;
   }
 
+  .project-skill h2 {
+    font-size: 50px;
+  }
+
   .description {
     grid-column: 1;
     grid-row: 3;
@@ -118,6 +172,13 @@
   .project-link {
     grid-column: 1;
     grid-row: 2;
+  }
+
+  .project-link img {
+    height: 200px;
+    width: 100%;
+    border-radius: 3px;
+    object-fit: cover;
   }
 }
 
@@ -134,11 +195,11 @@
   grid-row: 1 / 4;
 }
 
-.message-one h1{
+.message-one h2{
   font-family: "Oswald";
   font-weight: bold;
   font-size: 95px;
-  color: #F0F0F0;
+  color: #efeff7;
 }
 
 .message-two {
@@ -173,6 +234,10 @@
   .message-two {
     grid-column: 1;
     grid-row: 2;
+  }
+
+  .message-one h2{
+    font-size: 50px;
   }
 }
 

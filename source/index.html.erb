@@ -4,13 +4,21 @@ title: Philippine Berton
 
 
 <!-- home-me -->
-<div class="container profil">
-  <div class="bloc-me d-flex justify-content-center flex-column text-center">
-    <span>Bonjour, je suis Philippine</span>
-    <span>une développeuse web freelance</span>
-    <span>vivant à Nancy / Paris.</span>
+<div class="container" id="bloc-me">
+  <div class="profil">
+    <div class="profil-hello">
+      <h2>Bonjour</h2>
+    </div>
+    <div class="profil-desc text-center">
+      <p>je suis Philippine</p>
+      <p>une développeuse web freelance</p>
+      <p>vivant à Nancy / Paris.</p>
+    </div>
   </div>
 </div>
+
+
+
 
 <!-- skills -->
 <div class="container d-flex justify-content-center" id="skills">
@@ -37,7 +45,7 @@ title: Philippine Berton
 <% data.projects.each do |project| %>
   <div class="container projects" id='<%= project.id %>'>
     <div class="project-skill">
-      <h1><%= project.skill %></h1>
+      <h2><%= project.skill %></h2>
     </div>
 
     <div class="description bg-white align-self-end">
@@ -65,9 +73,9 @@ title: Philippine Berton
 <div class="container">
   <div class="message" id="contact">
     <div class="message-one">
-      <h1>Vous voulez</br>
+      <h2>Vous voulez</br>
       travailler</br>
-      avec moi ?</h1>
+      avec moi ?</h2>
     </div>
     <a href="mailto:phi.berton@hotmail.fr" class="message-two">
       <div class="text-center">
@@ -77,7 +85,6 @@ title: Philippine Berton
       </div>
     </a>
   </div>
-
 </div>
 
 
@@ -89,6 +96,7 @@ title: Philippine Berton
       <p>+33 (0)6 81 48 49 93</p>
     </div>
     <div class="contact-link">
+      <a href="https://www.malt.fr/profile/philippineberton"><img src='images/malt.svg' alt="malt" class=""></a>
       <a href="https://github.com/Ceriiise"><i class="fab fa-github"></i></a>
       <a href="https://www.linkedin.com/in/philippineberton/"><i class="fab fa-linkedin"></i></a>
     </div>
