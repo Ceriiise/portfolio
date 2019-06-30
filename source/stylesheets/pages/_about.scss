@@ -1,21 +1,5 @@
-.banner {
-  min-height: calc(100vh - 70px);
-  background-color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.wrapper {
-  height: 100vh;
-  background-color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.wrapper-content {
-  margin: 0 auto;
-  max-width: 50em;
-  text-align: center;
+.contact-typeform {
+  min-height: calc(100vh - 120px);
+  margin: auto 0px;
+  justify-content: center;
 }
