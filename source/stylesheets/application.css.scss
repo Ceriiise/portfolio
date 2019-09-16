@@ -34,3 +34,7 @@ h3 {
 p {
   font-family: 'Quattrocento', serif;
 }
+
+.full-container {
+  min-height: calc(100vh - 120px)
+}

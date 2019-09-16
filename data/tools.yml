@@ -1,0 +1,132 @@
+###############
+###### COLORS
+###############
+
+- name: 'Coolors'
+  url: 'https://coolors.co/'
+  type: 'colors'
+- name: 'Color Hunt'
+  url: 'https://colorhunt.co/'
+  type: 'colors'
+- name: 'Color-Hex'
+  url: 'https://www.color-hex.com/'
+  type: 'colors'
+- name: 'UI Gradient'
+  url: 'https://uigradients.com/'
+  type: 'colors'
+
+###############
+###### ICONES
+###############
+
+- name: 'Font Awesome'
+  url: 'https://fontawesome.com/'
+  type: 'icons'
+- name: 'The Noun Project'
+  url: 'https://thenounproject.com/'
+  type: 'icons'
+- name: 'Icons Store'
+  url: 'https://iconstore.co/'
+  type: 'icons'
+- name: 'Flat Icon'
+  url: 'https://www.flaticon.com/'
+  type: 'icons'
+- name: 'Font Icon'
+  url: 'https://gauger.io/fonticon/'
+  type: 'icons'
+  description: 'générateur de flavicon'
+- name: 'Material Design'
+  url: 'https://material.io/resources/icons/?icon=grade&style=baseline'
+  type: 'icons'
+
+###############
+###### IMAGES
+###############
+
+- name: 'Pexels'
+  url: 'https://www.pexels.com/'
+  type: 'images'
+- name: 'Unsplash'
+  url: 'https://picsum.photos/'
+  type: 'images'
+- name: 'UnDraw'
+  url: 'https://undraw.co/illustrations'
+  type: 'images'
+  description: 'illustration'
+- name: 'ManyPixels'
+  url: 'https://gallery.manypixels.co/'
+  type: 'images'
+  description: 'illustration'
+
+
+###############
+###### FONTS
+###############
+
+- name: 'Google Fonts'
+  url: 'https://fonts.google.com/'
+  type: 'fonts'
+- name: 'Font Pair'
+  url: 'https://fontpair.co/'
+  type: 'fonts'
+- name: 'Font Combination'
+  url: 'https://www.canva.com/font-combinations/'
+  type: 'fonts'
+- name: 'TypeWolf'
+  url: 'https://www.typewolf.com/recommendations'
+  type: 'fonts'
+
+###############
+###### UI KIT
+###############
+
+- name: 'UI kit le Wagon'
+  url: 'https://uikit.lewagon.com/'
+  type: 'KIT'
+- name: 'Bootstrap'
+  url: 'https://getbootstrap.com/'
+  type: 'KIT'
+
+###############
+###### UI INSPIRATION
+###############
+
+- name: 'Pages.xyz'
+  url: 'https://www.pages.xyz/'
+  type: 'UI'
+- name: 'dribbble'
+  url: 'https://dribbble.com/'
+  type: 'UI'
+- name: 'Crayon'
+  url: 'https://app.crayon.co/f/'
+  type: 'UI'
+
+###############
+###### SVG
+###############
+
+- name: 'Get waves'
+  url: 'https://getwaves.io/'
+  type: 'SVG'
+  description: 'Générateur de vagues en svg'
+- name: 'SVG Background'
+  url: 'https://www.svgbackgrounds.com/'
+  type: 'SVG'
+  description: 'Générateur de background en svg'
+
+###############
+###### CHECKBOX
+###############
+
+- name: 'CSS checkbox Library'
+  url: 'https://hunzaboy.github.io/CSS-Checkbox-Library/#'
+  type: 'checkbox'
+
+
+
+
+
+
+
+
+

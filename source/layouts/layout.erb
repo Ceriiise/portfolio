@@ -27,7 +27,9 @@
   </head>
   <body>
     <%= partial 'shared/navbar' %>
-    <%= yield %>
+    <div class="full-container">
+      <%= yield %>
+    </div>
     <%= partial 'shared/footer' %>
   </body>
 </html>

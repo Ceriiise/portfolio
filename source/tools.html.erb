@@ -1,0 +1,97 @@
+---
+title: Philippine Berton - Tools
+---
+<div class="container">
+  <div class="tools-grid">
+
+    <div>
+      <ul>
+        <h2>COLORS</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "colors" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a></li>
+            <p><%= tool.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>ICONS</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "icons" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>IMAGES</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "images" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>FONTS</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "fonts" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>UI KIT</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "KIT" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>UI INSPIRATION</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "UI" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>SVG</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "SVG" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>CHECKBOX</h2>
+        <% data.tools.each do |tool| %>
+          <% if tool.type == "checkbox" %>
+            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+  </div>
+</div>
