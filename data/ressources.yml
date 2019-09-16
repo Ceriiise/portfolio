@@ -122,9 +122,21 @@
   url: 'https://hunzaboy.github.io/CSS-Checkbox-Library/#'
   type: 'checkbox'
 
+###############
+###### BUTTONS
+###############
 
+- name: 'Particle buttons'
+  url: 'https://tympanus.net/Development/ParticleEffectsButtons/'
+  type: 'buttons'
 
+###############
+###### LOG / PASSWORD
+###############
 
+- name: 'Visualization Password'
+  url: 'https://tympanus.net/Development/PasswordStrengthVisualization/index.html'
+  type: 'log'
 
 
 

@@ -1,0 +1,176 @@
+###############
+###### TEMPLATE
+###############
+
+- name: 'Template #1'
+  url: 'https://tympanus.net/Development/OutdoorsTemplate/#'
+  type: 'template'
+- name: 'Template Home'
+  url: 'https://tympanus.net/Development/SegmentEffect/index.html'
+  type: 'template'
+
+###############
+###### IMAGES
+###############
+
+- name: 'Hover distortion'
+  url: 'https://tympanus.net/Development/DistortionHoverEffect/'
+  type: 'images'
+- name: 'Slice revealer'
+  url: 'https://tympanus.net/Development/SliceRevealer/index3.html'
+  type: 'images'
+- name: 'Dual Images'
+  url: 'https://tympanus.net/Development/SlicedDualImageLayout/index.html'
+  type: 'images'
+- name: 'Images Revealer'
+  url: 'https://tympanus.net/Development/ItemRevealer/index.html'
+  type: 'images'
+- name: 'Card expension'
+  url: 'https://tympanus.net/Development/CardExpansion/index.html'
+  type: 'images'
+
+###############
+###### MENU
+###############
+
+- name: 'Grid Menu'
+  url: 'https://tympanus.net/Development/GridMenu/index2.html'
+  type: 'menu'
+- name: 'Menu Hover'
+  url: 'https://tympanus.net/Development/MenuHoverEffects/index.html'
+  type: 'menu'
+- name: 'Menu / Navigation Indicators'
+  url: 'https://tympanus.net/Development/NavigationIndicators/'
+  type: 'menu'
+- name: 'Line Menu Style'
+  url: 'https://tympanus.net/Development/LineMenuStyles/'
+  type: 'menu'
+
+###############
+###### LETTERS
+###############
+
+- name: 'Scrolling Letters'
+  url: 'https://tympanus.net/Development/ScrollingLettersAnimation/index3.html'
+  type: 'letters'
+- name: 'Letter Interactions'
+  url: 'https://tympanus.net/Development/LetterInteractions/index.html'
+  type: 'letters'
+- name: 'Letter Effects'
+  url: 'https://tympanus.net/Development/LetterEffects/'
+  type: 'letters'
+- name: 'Text hover Effects'
+  url: 'https://tympanus.net/Development/TextStylesHoverEffects/'
+  type: 'letters'
+
+###############
+###### INPUT
+###############
+
+- name: 'Text Input'
+  url: 'https://tympanus.net/Development/TextInputEffects/index.html'
+  type: 'input'
+
+###############
+###### SVG
+###############
+
+- name: 'Shape Morphideas'
+  url: 'https://tympanus.net/Development/ShapeMorphIdeas/index4.html'
+  type: 'SVG'
+- name: 'UI Gradient'
+  url: 'https://uigradients.com/'
+  type: 'colors'
+
+###############
+###### GRID
+###############
+
+- name: 'Grid Layout'
+  url: 'https://tympanus.net/Development/GridLayoutSlideshow/index3.html'
+  type: 'grid'
+- name: 'Grid Loading'
+  url: 'https://tympanus.net/Development/GridLoadingAnimations/#'
+  type: 'grid'
+- name: 'Multi Layout'
+  url: 'https://tympanus.net/Development/MultiLayoutSlideshow/#'
+  type: 'grid'
+- name: 'Isometric grid'
+  url: 'https://tympanus.net/Development/IsometricGrids/index2.html'
+  type: 'grid'
+- name: 'Images grid effects'
+  url: 'https://tympanus.net/Development/ImageGridEffects/index.html'
+  type: 'grid'
+
+###############
+###### HOVER
+###############
+
+- name: 'Hover info text'
+  url: 'https://tympanus.net/Development/TooltipAnimations/'
+  type: 'hover'
+- name: 'Hover images'
+  url: 'https://tympanus.net/Development/TiltHoverEffects/'
+  type: 'hover'
+- name: 'Hover text'
+  url: 'https://tympanus.net/Development/MediaPopUpEffect/'
+  description: "Affichage d'image au hover du texte"
+  type: 'hover'
+- name: 'Hover / template'
+  url: 'https://tympanus.net/Development/MorphingBackgroundShapes/index.html'
+  type: 'hover'
+
+###############
+###### SEARCH
+###############
+
+- name: 'Search bar'
+  url: 'https://tympanus.net/Development/SearchUIEffects/index.html'
+  type: 'search'
+- name: 'search / template'
+  url: 'https://tympanus.net/Development/MorphingBackgroundShapes/index.html'
+  type: 'search'
+
+###############
+###### BUTTON / ICON
+###############
+
+- name: 'Distorted Button Effects'
+  url: 'https://tympanus.net/Development/DistortedButtonEffects/'
+  type: 'button'
+- name: 'Animations Icons'
+  url: 'https://tympanus.net/Development/Animocons/'
+  type: 'button'
+- name: 'Custom button Choose a file'
+  url: 'https://tympanus.net/Tutorials/CustomFileInputs/'
+  type: 'button'
+- name: 'Button Style & Hover'
+  url: 'https://tympanus.net/Development/ButtonStylesInspiration/'
+  type: 'button'
+- name: 'Click Effects'
+  url: 'https://tympanus.net/Development/ClickEffects/'
+  type: 'button'
+
+###############
+###### MAP
+###############
+
+- name: 'Interactive Points'
+  url: 'https://tympanus.net/Development/InteractivePoints/'
+  type: 'map'
+
+###############
+###### CHAT
+###############
+
+- name: 'Gooey Effects'
+  url: 'https://tympanus.net/Development/CreativeGooeyEffects/index.html'
+  type: 'chat'
+
+###############
+###### HORS CAT
+###############
+
+- name: 'Storytelling map'
+  url: 'https://tympanus.net/Development/StorytellingMap/'
+  type: 'horscat'

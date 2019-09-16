@@ -2,15 +2,18 @@
 title: Philippine Berton - Tools
 ---
 <div class="container">
-  <div class="tools-grid">
+  <div class="project-skill">
+    <h2>RESSOURCES</h2>
+  </div>
 
+  <div class="tools-grid">
     <div>
       <ul>
         <h2>COLORS</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "colors" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a></li>
-            <p><%= tool.description %></p>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "colors" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a></li>
+            <p><%= ressource.description %></p>
           <% end %>
         <% end %>
       </ul>
@@ -19,9 +22,9 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>ICONS</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "icons" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "icons" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
           <% end %>
         <% end %>
       </ul>
@@ -30,9 +33,9 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>IMAGES</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "images" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "images" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
           <% end %>
         <% end %>
       </ul>
@@ -41,9 +44,9 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>FONTS</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "fonts" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "fonts" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
           <% end %>
         <% end %>
       </ul>
@@ -52,9 +55,9 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>UI KIT</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "KIT" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "KIT" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
           <% end %>
         <% end %>
       </ul>
@@ -63,9 +66,9 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>UI INSPIRATION</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "UI" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "UI" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
           <% end %>
         <% end %>
       </ul>
@@ -74,9 +77,9 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>SVG</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "SVG" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "SVG" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
           <% end %>
         <% end %>
       </ul>
@@ -85,9 +88,195 @@ title: Philippine Berton - Tools
     <div>
       <ul>
         <h2>CHECKBOX</h2>
-        <% data.tools.each do |tool| %>
-          <% if tool.type == "checkbox" %>
-            <li><a href="<%= tool.url %>"><%= tool.name %></a><em><p><%= tool.description %></p></em></li>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "checkbox" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>BUTTONS</h2>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "buttons" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>LOG / PASSWORD</h2>
+        <% data.ressources.each do |ressource| %>
+          <% if ressource.type == "buttons" %>
+            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+
+  <div class="project-skill">
+    <h2>ANIMATIONS</h2>
+  </div>
+
+  <div class="tools-grid">
+    <div>
+      <ul>
+        <h2>TEMPLATE</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "template" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>IMAGES</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "images" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>MENU</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "menu" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>LETTERS</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "letters" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>INPUT</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "input" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>SVG</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "SVG" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+
+    <div>
+      <ul>
+        <h2>GRID</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "grid" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+
+    <div>
+      <ul>
+        <h2>HOVER</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "hover" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>SEARCH</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "search" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>BUTTON / ICON</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "button" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>MAP</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "map" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>CHAT</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "chat" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>HORS CATEGORIES</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "horscat" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
           <% end %>
         <% end %>
       </ul>
