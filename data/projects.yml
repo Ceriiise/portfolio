@@ -1,18 +1,36 @@
-- skill: 'HTML </br>& CSS'
-  title: "Cerise's Bakery"
-  text: "Site de présentation d'un salon de thé à Nancy. Projet personnel fictif."
-  img: '/images/Cerise_bakery.png'
-  link: 'https://ceriiise.github.io/cerise_bakery/'
-  id: 'HTML'
-- skill: 'UX & UI</br>Design'
-  title: 'En cours'
-  text: 'Projet en cours de construction. Mise en ligne prochainement.'
-  img: '/images/UX_construction.jpeg'
-  link: '#'
-  id: 'UI'
 - skill: '&lt;/&gt;</br>Programmation'
   title: 'Garden Party'
   text: 'Garden Party est une plateforme communautaire de location et de réservation de jardin de particulier à Paris et en proche banlieue. Cette application a été réalisé en 5 jours dans le cadre de la formation du Wagon.<br>Pour vous connecter <br>login : philippine@gmail.com <br>mdp : 123456'
   img: '/images/Garden_party.png'
   link: 'https://newgardenparty.herokuapp.com/'
   id: 'programmer'
+- skill: ''
+  title: 'Alexandre Bouvier'
+  text: "Création d'un blog / porfolio pour Alexandre Bouvier. Site réalisé avec Jekyll."
+  img: 'https://www.alexandrebouvier.fr/images/jim-carrey.gif'
+  link: 'https://www.alexandrebouvier.fr/'
+  id: ''
+- skill: ''
+  title: 'Copycat Airbnb'
+  text: "Copycat Airbnb est une fausse plateforme de réservation d'appartement en ligne. Ce projet est un support au blog d'Alexandre Bouvier. Il permet de voir les fonctionnalités développées dans les différents articles de son blog.<br> Pour vous connecter <br>login : philippine@gmail.com <br>mdp : 123456"
+  img: '/images/airbnb.png'
+  link: 'https://airbnb-copycat.herokuapp.com/'
+  id: ''
+- skill: 'HTML </br>& CSS'
+  title: "Cerise's Bakery"
+  text: "Site de présentation d'un salon de thé à Nancy. Projet personnel fictif."
+  img: '/images/Cerise_bakery.png'
+  link: 'https://ceriiise.github.io/cerise_bakery/'
+  id: 'HTML'
+- skill: ''
+  title: "Newsletter"
+  text: "Intégration d'une newsletter responsive en HTML pour le groupe LIVI."
+  img: '/images/Livi.png'
+  link: 'https://ceriiise.github.io/newsletter_livi/'
+  id: 'HTML'
+- skill: 'UX & UI</br>Design'
+  title: 'Page 404'
+  text: 'Réalisation de page 404 et page 500 pour le projet de Monsieur Peinture.'
+  img: '/images/page_404.png'
+  link: 'https://devis.monsieurpeinture.com/projects/new/404.html'
+  id: 'UI'
