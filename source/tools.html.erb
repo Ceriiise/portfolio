@@ -174,7 +174,7 @@ title: Philippine Berton - Tools
 
     <div>
       <ul>
-        <h2>INPUT</h2>
+        <h2>FORM / INPUT</h2>
         <% data.animations.each do |animation| %>
           <% if animation.type == "input" %>
             <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
@@ -196,7 +196,6 @@ title: Philippine Berton - Tools
       </ul>
     </div>
 
-
     <div>
       <ul>
         <h2>GRID</h2>
@@ -208,7 +207,6 @@ title: Philippine Berton - Tools
         <% end %>
       </ul>
     </div>
-
 
     <div>
       <ul>
@@ -227,6 +225,30 @@ title: Philippine Berton - Tools
         <h2>SEARCH</h2>
         <% data.animations.each do |animation| %>
           <% if animation.type == "search" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>MODAL</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "modal" %>
+            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
+            <p><%= animation.description %></p>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <h2>NOTIFICATION</h2>
+        <% data.animations.each do |animation| %>
+          <% if animation.type == "notification" %>
             <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
             <p><%= animation.description %></p>
           <% end %>

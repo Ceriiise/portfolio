@@ -8,6 +8,9 @@
 - name: 'Template Home'
   url: 'https://tympanus.net/Development/SegmentEffect/index.html'
   type: 'template'
+- name: 'Template / Grid'
+  url: 'https://tympanus.net/Development/DraggableDualViewSlideshow/'
+  type: 'template'
 
 ###############
 ###### IMAGES
@@ -36,6 +39,9 @@
 - name: 'Grid Menu'
   url: 'https://tympanus.net/Development/GridMenu/index2.html'
   type: 'menu'
+- name: 'Menu Effects'
+  url: 'https://tympanus.net/Development/OffCanvasMenuEffects/index.html'
+  type: 'menu'
 - name: 'Menu Hover'
   url: 'https://tympanus.net/Development/MenuHoverEffects/index.html'
   type: 'menu'
@@ -44,6 +50,12 @@
   type: 'menu'
 - name: 'Line Menu Style'
   url: 'https://tympanus.net/Development/LineMenuStyles/'
+  type: 'menu'
+- name: 'Elastics Menu'
+  url: 'https://tympanus.net/Development/ElasticSVGElements/index.html'
+  type: 'menu'
+- name: 'Tabs Menu'
+  url: 'https://tympanus.net/Development/TabStylesInspiration/'
   type: 'menu'
 
 ###############
@@ -64,11 +76,17 @@
   type: 'letters'
 
 ###############
-###### INPUT
+###### INPUT / FORM
 ###############
 
 - name: 'Text Input'
   url: 'https://tympanus.net/Development/TextInputEffects/index.html'
+  type: 'input'
+- name: 'Fullscreen Form'
+  url: 'https://tympanus.net/Development/FullscreenForm/'
+  type: 'input'
+- name: 'Selector Menu'
+  url: 'https://tympanus.net/Development/SelectInspiration/index.html'
   type: 'input'
 
 ###############
@@ -101,6 +119,9 @@
 - name: 'Images grid effects'
   url: 'https://tympanus.net/Development/ImageGridEffects/index.html'
   type: 'grid'
+- name: 'Sliding Layout'
+  url: 'https://tympanus.net/Tutorials/SlidingHeaderLayout/index.html'
+  type: 'grid'
 
 ###############
 ###### HOVER
@@ -109,8 +130,14 @@
 - name: 'Hover info text'
   url: 'https://tympanus.net/Development/TooltipAnimations/'
   type: 'hover'
+- name: 'Hover styles'
+  url: 'https://tympanus.net/Development/TooltipStylesInspiration/index.html'
+  type: 'hover'
 - name: 'Hover images'
   url: 'https://tympanus.net/Development/TiltHoverEffects/'
+  type: 'hover'
+- name: 'Hover images #2'
+  url: 'https://tympanus.net/Development/HoverEffectIdeas/index.html'
   type: 'hover'
 - name: 'Hover text'
   url: 'https://tympanus.net/Development/MediaPopUpEffect/'
@@ -118,6 +145,9 @@
   type: 'hover'
 - name: 'Hover / template'
   url: 'https://tympanus.net/Development/MorphingBackgroundShapes/index.html'
+  type: 'hover'
+- name: 'Anchor Style'
+  url: 'https://tympanus.net/Development/InlineAnchorStyles/'
   type: 'hover'
 
 ###############
@@ -130,6 +160,22 @@
 - name: 'search / template'
   url: 'https://tympanus.net/Development/MorphingBackgroundShapes/index.html'
   type: 'search'
+
+###############
+###### MODAL
+###############
+
+- name: 'Modal Effects'
+  url: 'https://tympanus.net/Development/DialogEffects/val.html'
+  type: 'modal'
+
+###############
+###### NOTIFICATIONS
+###############
+
+- name: 'Notifications styles'
+  url: 'https://tympanus.net/Development/NotificationStyles/index.html'
+  type: 'notification'
 
 ###############
 ###### BUTTON / ICON
