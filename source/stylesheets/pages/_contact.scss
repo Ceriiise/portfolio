@@ -1,0 +1,79 @@
+
+// MESSAGE
+.message {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 100px 0;
+}
+
+.message-one {
+  grid-column: 2 / 5;
+  grid-row: 1 / 4;
+}
+
+.message-one h2{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 95px;
+  color: #efeff7;
+}
+
+.message-two {
+  grid-column: 3 / 5;
+  grid-row: 2;
+  z-index: 200;
+}
+
+.message-two p{
+  font-size: 20px;
+}
+
+.message a:hover {
+  font-family: 'Quattrocento', serif;
+  color: #333333;
+}
+
+
+@media (max-width: 992px) {
+  .message {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 10px 0;
+  }
+
+  .message-one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .message-two {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .message-one h2{
+    font-size: 50px;
+  }
+}
+
+// CONTACT
+.contact {
+  padding-top: 30px;
+}
+
+.contact-details {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.contact-link a{
+  color: #333333;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.contact-link a:hover{
+  color: #000000;
+}

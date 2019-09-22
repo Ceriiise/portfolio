@@ -1,0 +1,39 @@
+// SKILLS
+#skills {
+  padding: 100px 0;
+}
+
+.skill {
+  // width: 280px;
+  // height: 375px;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 3px;
+  border: 0.5px solid #E3E3E3;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2)
+}
+
+.skill:hover {
+  box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+
+.skill-link {
+  color: #333333;
+}
+
+.skill-link:hover{
+  text-decoration: none;
+  color: #333333;
+}
+
+.skill img{
+  height: 125px;
+}
+
+.skill h3 {
+  margin: 20px 0;
+}
+
+.skill-info {
+  margin-top: 35px;
+}
