@@ -7,8 +7,32 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
+
+  .navbar-home-item {
+    cursor: pointer;
+    padding: 0 15px;
+  }
+
+  .navbar-home-link {
+    color: transparent;
+    transition: 0.5s color ease;
+  }
+
+  .navbar-home-link:hover {
+    color: transparent;
+    text-decoration: none;
+  }
+}
+
+.navbar-home-view {
+  .navbar-home-link {
+    color: #333333;
+    font-size: 14px;
+  }
+  .navbar-home-link:hover {
+    color: #000000;
+    text-decoration: none;
+  }
 }
 
 /* Right section */
@@ -18,19 +42,4 @@
   justify-content: space-between;
 }
 
-/* Basic navbar item */
-.navbar-home-item {
-  cursor: pointer;
-  padding: 0 15px;
-}
 
-/* Navbar link */
-.navbar-home-link {
-  color: #333333;
-  font-size: 14px;
-}
-
-.navbar-home-link:hover {
-  color: #000000;
-  text-decoration: none;
-}
