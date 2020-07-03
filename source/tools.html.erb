@@ -1,308 +1,312 @@
 ---
 title: Philippine Berton - Tools
 ---
-<div class="container">
-  <div class="project-skill">
-    <h2>RESSOURCES</h2>
-  </div>
+<div id="tools" class="container">
+  <h2>RESSOURCES.</h2>
 
   <div class="tools-grid">
-    <div>
-      <ul>
-        <h2>COLORS</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "colors" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a></li>
-            <p><%= ressource.description %></p>
-          <% end %>
+    <ul>
+      <h3>COLORS</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "colors" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>ICONS</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "icons" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>ICONS</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "icons" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>IMAGES</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "images" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>IMAGES</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "images" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>FONTS</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "fonts" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>FONTS</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "fonts" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>UI KIT</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "KIT" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>UI KIT</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "KIT" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>UI INSPIRATION</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "UI" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>UI INSPIRATION</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "UI" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>SVG</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "SVG" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>SVG</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "SVG" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>CHECKBOX</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "checkbox" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>CHECKBOX</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "checkbox" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>BUTTONS</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "buttons" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>BUTTONS</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "buttons" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>LOG / PASSWORD</h2>
-        <% data.ressources.each do |ressource| %>
-          <% if ressource.type == "buttons" %>
-            <li><a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a><em><p><%= ressource.description %></p></em></li>
-          <% end %>
+    <ul>
+      <h3>LOG / PASSWORD</h3>
+      <% data.ressources.each do |ressource| %>
+        <% if ressource.type == "buttons" %>
+          <li>
+            <a href="<%= ressource.url %>" target="_blank"><%= ressource.name %></a>
+            <em><p><%= ressource.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
   </div>
 
-  <div class="project-skill">
-    <h2>ANIMATIONS</h2>
-  </div>
+  <h2>ANIMATIONS.</h2>
 
   <div class="tools-grid">
-    <div>
-      <ul>
-        <h2>TEMPLATE</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "template" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>TEMPLATE</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "template" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>IMAGES</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "images" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>IMAGES</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "images" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>MENU</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "menu" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>MENU</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "menu" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>LETTERS</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "letters" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>LETTERS</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "letters" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>FORM / INPUT</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "input" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>FORM / INPUT</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "input" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>SVG</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "SVG" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>SVG</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "SVG" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>GRID</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "grid" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>GRID</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "grid" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>HOVER</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "hover" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>HOVER</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "hover" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>SEARCH</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "search" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>SEARCH</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "search" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>MODAL</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "modal" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>MODAL</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "modal" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>NOTIFICATION</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "notification" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>NOTIFICATION</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "notification" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>BUTTON / ICON</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "button" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>BUTTON / ICON</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "button" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>MAP</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "map" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>MAP</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "map" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>CHAT</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "chat" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>CHAT</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "chat" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
+      <% end %>
+    </ul>
 
-    <div>
-      <ul>
-        <h2>HORS CATEGORIES</h2>
-        <% data.animations.each do |animation| %>
-          <% if animation.type == "horscat" %>
-            <li><a href="<%= animation.url %>" target="_blank"><%= animation.name %></a></li>
-            <p><%= animation.description %></p>
-          <% end %>
+    <ul>
+      <h3>HORS CATEGORIES</h3>
+      <% data.animations.each do |animation| %>
+        <% if animation.type == "horscat" %>
+          <li>
+            <a href="<%= animation.url %>" target="_blank"><%= animation.name %></a>
+            <em><p><%= animation.description %></p></em>
+          </li>
         <% end %>
-      </ul>
-    </div>
-
+      <% end %>
+    </ul>
   </div>
 </div>
