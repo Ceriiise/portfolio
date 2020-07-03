@@ -1,12 +1,24 @@
 .title {
+  background-color: $light-gray;
   margin: 4rem;
-  padding: 10rem 0;
+  padding: 8rem 0;
   p {
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 }
 
 .section {
   padding: 5rem;
+}
+
+@media (max-width: 992px) {
+  .title {
+    margin: 2rem;
+    padding: 4rem 0.5rem;
+    background-color: $white;
+  }
+  .section {
+    padding: 3rem .5rem;
+  }
 }
