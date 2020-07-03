@@ -13,28 +13,4 @@
 @import "components/index";
 @import "pages/index";
 
-body{
-  margin: 0px;
-  background-color: white;
-}
-
-a {
-  color: #616668;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-h3 {
-  font-family: 'Oswald', sans-serif;
-}
-
-p {
-  font-family: 'Quattrocento', serif;
-}
-
-.full-container {
-  min-height: 100vh;
-}
+@import "config/general_layout";
