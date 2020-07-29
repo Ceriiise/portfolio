@@ -1,0 +1,78 @@
+.items-container {
+  margin: 4rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  padding: 1rem;
+}
+
+.items-container {
+  display: flex;
+}
+
+.item {
+  background-color: $light-gray;
+  height: 400px;
+  position: relative;
+}
+
+.square {
+  width: 65%;
+  margin-left: 2rem;
+}
+
+.large {
+  width: 100%;
+  margin-right: 2rem;
+}
+
+#autoportrait img {
+  object-fit: contain;
+}
+
+.overlay-item {
+  background-color: $yellow;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: $white;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  transition: ease .5s all;
+}
+
+.overlay-item-content {
+  h3 {
+    font-size: 2rem;
+    border: 1px solid $white;
+    padding: 2rem 0;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-weight: 200;
+  }
+}
+
+.item:hover .overlay-item {
+  opacity: 1;
+  transition: ease .5s all;
+}
+
+@media (max-width: 992px) {
+  .items-container {
+    display: block;
+  }
+  .item {
+    margin: 0 1rem 1rem 1rem;
+  }
+  .square {
+    width: 100%
+  }
+}

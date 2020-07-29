@@ -87,6 +87,14 @@ a {
   color: $white;
 }
 
+.pad-x-6 {
+  padding: 0 6rem;
+}
+
+.pad-x-10 {
+  padding: 0 10rem;
+}
+
 @media (min-width: 992px) {
   .display-flex {
     display: flex;
