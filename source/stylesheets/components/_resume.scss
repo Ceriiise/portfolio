@@ -1,0 +1,9 @@
+.padding-section {
+  padding: 5rem;
+}
+
+@media (max-width: 992px) {
+  .padding-section {
+    padding: 3rem .5rem;
+  }
+}

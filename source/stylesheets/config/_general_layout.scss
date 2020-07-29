@@ -1,8 +1,11 @@
+html {
+  font-size: 16px;
+}
+
 body{
   margin: 0px;
   background-color: white;
   font-family: $body-font;
-  font-size: 16px;
   color: $dark-gray;
   text-align: center;
 }
@@ -13,12 +16,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 5rem;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 4rem;
 }
 
 ul {
@@ -27,7 +30,7 @@ ul {
   padding-left: 0;
   li{
     font-weight: 300;
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
 }
 
@@ -82,4 +85,30 @@ a {
 
 .white {
   color: $white;
+}
+
+.pad-x-6 {
+  padding: 0 6rem;
+}
+
+.pad-x-10 {
+  padding: 0 10rem;
+}
+
+@media (min-width: 992px) {
+  .display-flex {
+    display: flex;
+  }
+  .half-width {
+    width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
 }
