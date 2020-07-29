@@ -9,8 +9,10 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+// Global CSS
+@import "config/general_layout";
+
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
 
-@import "config/general_layout";

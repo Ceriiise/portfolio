@@ -1,0 +1,17 @@
+.title {
+  background-color: $light-gray;
+  margin: 4rem;
+  padding: 8rem 0;
+  p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .title {
+    margin: 2rem;
+    padding: 4rem 0.5rem;
+    background-color: $white;
+  }
+}
