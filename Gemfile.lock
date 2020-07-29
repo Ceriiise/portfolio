@@ -144,6 +144,7 @@ DEPENDENCIES
   middleman-deploy!
   middleman-minify-html
   middleman-sprockets
+  rack (= 2.2.3)
 
 BUNDLED WITH
    2.1.4
