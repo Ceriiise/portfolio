@@ -95,6 +95,11 @@ a {
   padding: 0 10rem;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 @media (min-width: 992px) {
   .display-flex {
     display: flex;

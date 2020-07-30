@@ -2,32 +2,30 @@
 title: Philippine Berton
 ---
 
-
-<div class="title">
+<header>
   <h1><span class="yellow">Philippine B.</span></h1>
   <p>Conceptrice d'application web <span class="bolder px-2">|</span> intégratrice web <span class="bolder px-2">|</span> UX designer</p>
-</div>
+</header>
 
+<!-- Gallery1 -->
 <div class="items-container">
-  <div class="item large">
-    <img src="images/ateliersNX.png" alt="">
-    <div class="overlay-item pad-x-10">
-      <div class="overlay-item-content">
-        <h3>Les Ateliers NX</h3>
-        <p>Maquette interactive. Faciliter les échanges entre particuliers et professionnels avant la validation de devis. Gestion de devis et de factures de l’achat immobilier à la décoration sur-mesure.</p>
-      </div>
-    </div>
-  </div>
-  <div id="autoportrait" class="item square">
-    <img src="images/autoportrait.png" alt="">
-    <div class="overlay-item pad-x-6">
-      <div class="overlay-item-content">
-        <h3>Illustration</h3>
-        <p>Réalisation personnelle. Illustration d’un autoportrait grâce à Adobe Illustrator</p>
-      </div>
-    </div>
-  </div>
+  <% data.projects.gallery1.each do |project| %>
+    <%= partial('shared/gallery', :locals => { :project => project }) %>
+  <% end %>
 </div>
+<% data.projects.gallery1.each do |project| %>
+  <%= partial('shared/overlay', :locals => { :project => project }) %>
+<% end %>
+
+<!-- Gallery2 -->
+<div class="items-container">
+  <% data.projects.gallery2.each do |project| %>
+    <%= partial('shared/gallery', :locals => { :project => project }) %>
+  <% end %>
+</div>
+<% data.projects.gallery2.each do |project| %>
+  <%= partial('shared/overlay', :locals => { :project => project }) %>
+<% end %>
 
 <div class="padding-section bg-light-gray">
   <h2><span class="dark-gray">outils.</span></h2>
