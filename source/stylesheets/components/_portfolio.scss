@@ -1,5 +1,15 @@
+.display-modal {
+  width: 0;
+  height: 100vh;
+  z-index: 100;
+  background-color: $light-gray;
+  position: absolute;
+  transition: .5s ease;
+}
+
 .items-container {
   margin: 4rem;
+  display: flex;
 }
 
 img {
@@ -7,10 +17,6 @@ img {
   width: 100%;
   object-fit: cover;
   padding: 1rem;
-}
-
-.items-container {
-  display: flex;
 }
 
 .item {
@@ -21,15 +27,13 @@ img {
 
 .square {
   width: 65%;
-  margin-left: 2rem;
 }
 
 .large {
   width: 100%;
-  margin-right: 2rem;
 }
 
-#autoportrait img {
+img.fit-contain {
   object-fit: contain;
 }
 
@@ -48,31 +52,71 @@ img {
   transition: ease .5s all;
 }
 
+.item:hover .overlay-item {
+  opacity: 1;
+  transition: ease .5s all;
+}
+
 .overlay-item-content {
+  width: 100%;
   h3 {
     font-size: 2rem;
     border: 1px solid $white;
     padding: 2rem 0;
     margin-bottom: 1.5rem;
+    cursor: pointer;
+    transition: .5s ease;
+  }
+  h3:hover {
+    background-color: $white;
+    color: $yellow;
+    transition: .5s ease;
   }
   p {
     font-weight: 200;
   }
 }
 
-.item:hover .overlay-item {
-  opacity: 1;
-  transition: ease .5s all;
+.overlay-item-link {
+  width: fit-content;
+  margin: auto;
+  a:hover {
+    color: $white;
+  }
+  a:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .items-container .item:first-child {
+    margin-right: 2rem;
+  }
+  .items-container .item:last-child {
+    margin-left: 2rem;
+  }
 }
 
 @media (max-width: 992px) {
   .items-container {
     display: block;
+    margin: 1rem 4rem;
   }
   .item {
     margin: 0 1rem 1rem 1rem;
   }
   .square {
-    width: 100%
+    width: 100%;
   }
 }

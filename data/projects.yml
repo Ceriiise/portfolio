@@ -1,0 +1,46 @@
+{
+  "gallery1": [
+    {
+      "name": 'Les Ateliers NX',
+      "img": "images/ateliersNX.png",
+      "fitGallery": "",
+      "fitOverlay": "",
+      "format": "large",
+      "padding": "pad-x-10",
+      "text": "Maquette interactive Figma réalisée pour Les Ateliers NX. L'objectif était de faciliter les échanges entre particuliers et professionnels avant la validation de devis ainsi que de gérer le suivi des devis et des factures.",
+      "link": ""
+    },
+    {
+      "name": 'Autoportrait',
+      "img": "images/autoportrait.png",
+      "fitGallery": "fit-contain",
+      "fitOverlay": "fit-contain",
+      "format": "square",
+      "padding": "pad-x-6",
+      "text": "Réalisation personnelle. Illustration d’un autoportrait grâce à Adobe Illustrator.",
+      "link": ""
+    }
+  ],
+  "gallery2": [
+    {
+      "name": 'Rémi Créations',
+      "img": "images/remi-creations.png",
+      "fitGallery": "",
+      "fitOverlay": "fit-contain",
+      "format": "square",
+      "padding": "pad-x-6",
+      "text": "Site vitrine réalisé avec Middleman pour un artiste verrier.",
+      "link": "https://www.remi-creations.fr/"
+    },
+    {
+      "name": 'Guide Pêche Irlande',
+      "img": "images/guidepecheirlande_double.png",
+      "fitGallery": "",
+      "fitOverlay": "fit-contain",
+      "format": "large",
+      "padding": "pad-x-10",
+      "text": "Réalisation d'un site vitrine sur Wordpress pour une agence de voyage spécialisée dans la pêche en Irlande.",
+      "link": "https://guide-peche-irlande.fr/"
+    }
+  ]
+}

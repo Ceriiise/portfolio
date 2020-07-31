@@ -1,0 +1,12 @@
+<div class="item <%= project.format %>">
+  <img src="<%= project.img %>" class="<%= project.fitGallery %>" alt="">
+  <div class="overlay-item <%= project.padding %>">
+    <div class="overlay-item-content">
+      <span id="modal-trigger" data-trigger="<%= project.name %>"><h3><%= project.name %></h3></span>
+      <p><%= project.text %></p>
+      <% if project.link != "" %>
+        <p class="overlay-item-link"><small><%= link_to "voir le site", project.link, :target => "_blank" %></small></p>
+      <% end %>
+    </div>
+  </div>
+</div>
