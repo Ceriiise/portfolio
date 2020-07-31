@@ -1,10 +1,19 @@
+require 'sprockets/es6'
+
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-require 'sprockets/es6'
 activate :sprockets do |s|
   s.supported_output_extensions << '.es6'
+end
+
+# Configure Babel
+::Sprockets::ES6.configure do |config|
+  config.marshal_load({
+    modules: 'amd',
+    moduleIds: true
+  })
 end
 
 page '/*.xml', layout: false
