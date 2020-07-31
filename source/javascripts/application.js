@@ -1,3 +1,6 @@
+// application.js.es6
+//= require babel/polyfill
+
 window.addEventListener("DOMContentLoaded", (event) => {
   const buttons = document.querySelectorAll('#modal-trigger');
   const modal = document.querySelectorAll('.display-modal');
