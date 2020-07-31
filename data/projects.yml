@@ -1,7 +1,7 @@
 {
   "gallery1": [
     {
-      "name": 'Les Ateliers NX',
+      "name": 'Les-Ateliers-NX',
       "img": "images/ateliersNX.png",
       "fitGallery": "",
       "fitOverlay": "",
@@ -23,7 +23,7 @@
   ],
   "gallery2": [
     {
-      "name": 'Rémi Créations',
+      "name": 'Rémi-Créations',
       "img": "images/remi-creations.png",
       "fitGallery": "",
       "fitOverlay": "fit-contain",
@@ -33,7 +33,7 @@
       "link": "https://www.remi-creations.fr/"
     },
     {
-      "name": 'Guide Pêche Irlande',
+      "name": 'Guide-Pêche-Irlande',
       "img": "images/guidepecheirlande_double.png",
       "fitGallery": "",
       "fitOverlay": "fit-contain",
