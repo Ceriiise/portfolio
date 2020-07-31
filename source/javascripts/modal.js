@@ -5,7 +5,7 @@ window.addEventListener("DOMContentLoaded", function(event) {
   buttons.forEach(function (button) {
     button.addEventListener('click', function(event) {
       var modalTrigger = button.dataset.trigger;
-      var modal = document.querySelector(`[data-modal="${modalTrigger}"]`);
+      var modal = document.querySelector("." + modalTrigger);
       var scroll = window.scrollY;
       modal.style.width = "100vw";
       modal.style.top = window.scrollY + "px";
