@@ -1,1 +1,1 @@
-//= require "_modal"
+//= require "modal"
