@@ -87,17 +87,17 @@ a {
   color: $white;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 .pad-x-6 {
   padding: 0 6rem;
 }
 
 .pad-x-10 {
   padding: 0 10rem;
-}
-
-.stop-scrolling {
-  height: 100%;
-  overflow: hidden;
 }
 
 @media (min-width: 992px) {
@@ -109,11 +109,35 @@ a {
   }
 }
 
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  .pad-x-10 {
+    padding: 0 5rem;
+  }
+  .pad-x-6 {
+    padding: 0 3rem;
+  }
+}
+
 @media (max-width: 992px) {
   h1 {
     font-size: 3rem;
   }
   h2 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 325px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
   }
 }
