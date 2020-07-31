@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", (event) => {
+// window.addEventListener("DOMContentLoaded", (event) => {
   // const buttons = document.querySelectorAll('#modal-trigger');
   // const modal = document.querySelectorAll('.display-modal');
 
@@ -17,4 +17,4 @@ window.addEventListener("DOMContentLoaded", (event) => {
   //     });
   //   });
   // });
-});
+// });
