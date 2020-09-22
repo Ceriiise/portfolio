@@ -46,5 +46,29 @@
       "text": "Réalisation d'un site vitrine sur Wordpress pour une agence de voyage spécialisée dans la pêche en Irlande.",
       "link": "https://guide-peche-irlande.fr/"
     }
+  ],
+  "gallery3": [
+    {
+      "name": 'PopCarte',
+      "tag": 'PopMariage',
+      "img": "images/popcarte-mariage-mockup.jpg",
+      "fitGallery": "",
+      "fitOverlay": "fit-contain",
+      "format": "large",
+      "padding": "pad-x-10",
+      "text": "Exercice de graphisme pour PopCarte. Réalisation d'un faire-part de mariage en utilisant du blanc, de la texture et du doré",
+      "link": ""
+    },
+    {
+      "name": 'PopCarte',
+      "tag": 'popcartepaon',
+      "img": "images/popcarte-voeux-mockup.jpg",
+      "fitGallery": "",
+      "fitOverlay": "fit-contain",
+      "format": "square",
+      "padding": "pad-x-6",
+      "text": "Exercice de graphisme pour PopCarte. Réalisation d'une carte de voeux sur le thème du paon. Création d'un pattern irrégulier avec des couleurs foncées et une touche de dorée.",
+      "link": ""
+    }
   ]
 }
