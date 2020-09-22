@@ -27,6 +27,16 @@ title: Philippine Berton
   <%= partial('shared/overlay', :locals => { :project => project }) %>
 <% end %>
 
+<!-- Gallery3 -->
+<div class="items-container">
+  <% data.projects.gallery3.each do |project| %>
+    <%= partial('shared/gallery', :locals => { :project => project }) %>
+  <% end %>
+</div>
+<% data.projects.gallery3.each do |project| %>
+  <%= partial('shared/overlay', :locals => { :project => project }) %>
+<% end %>
+
 <div class="padding-section bg-light-gray">
   <h2><span class="dark-gray">outils.</span></h2>
   <div class="separator bg-yellow"></div>
